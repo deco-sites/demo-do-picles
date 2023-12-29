@@ -25,6 +25,13 @@ import * as $SearchControls from "./islands/SearchControls.tsx";
 import * as $ShippingSimulation from "./islands/ShippingSimulation.tsx";
 import * as $SliderJS from "./islands/SliderJS.tsx";
 import * as $WishlistButton from "./islands/WishlistButton.tsx";
+import * as $animated_Boxes from "./islands/animated/Boxes.tsx";
+import * as $animated_Hero from "./islands/animated/Hero.tsx";
+import * as $animated_Number from "./islands/animated/Number.tsx";
+import * as $animated_OffsetPath from "./islands/animated/OffsetPath.tsx";
+import * as $animated_ProgressBar from "./islands/animated/ProgressBar.tsx";
+import * as $animated_Stars from "./islands/animated/Stars.tsx";
+import * as $animated_TextLines from "./islands/animated/TextLines.tsx";
 import { type Manifest } from "$fresh/server.ts";
 
 const manifest = {
@@ -54,6 +61,13 @@ const manifest = {
     "./islands/ShippingSimulation.tsx": $ShippingSimulation,
     "./islands/SliderJS.tsx": $SliderJS,
     "./islands/WishlistButton.tsx": $WishlistButton,
+    "./islands/animated/Boxes.tsx": $animated_Boxes,
+    "./islands/animated/Hero.tsx": $animated_Hero,
+    "./islands/animated/Number.tsx": $animated_Number,
+    "./islands/animated/OffsetPath.tsx": $animated_OffsetPath,
+    "./islands/animated/ProgressBar.tsx": $animated_ProgressBar,
+    "./islands/animated/Stars.tsx": $animated_Stars,
+    "./islands/animated/TextLines.tsx": $animated_TextLines,
   },
   baseUrl: import.meta.url,
 } satisfies Manifest;

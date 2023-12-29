@@ -32,6 +32,32 @@
   animation: progress-frame ease normal
 }
 
+@layer components {
+  .earth-container {
+    width: 300px;
+    height: 300px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    border: 1px dashed #ccc;
+  }
+  
+  .earth {
+    font-size: 3rem; 
+  }
+  
+  .moon {
+    position: absolute;
+    offset-path: ellipse(150px 150px at 50% 50%);
+    animation: moveAlongEllipse 10s infinite linear;
+    font-size: 1.5rem; 
+  }
+}
+
+
+
 @keyframes progress-frame {
   0% {
     --dot-progress: 0%
