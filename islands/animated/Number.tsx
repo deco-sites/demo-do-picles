@@ -13,7 +13,7 @@ export default function Number() {
   }, []);
 
   return (
-    <div class="bg-black h-screen w-screen flex flex-col justify-center items-center gap-8">
+    <div class="bg-black h-screen w-screen flex flex-col justify-center items-center gap-8 max-w-[100%] overflow-hidden">
       <p class="text-white text-4xl font-bold">We are</p>
       <p id="number" class="text-[#02F67C] text-9xl font-bold -mr-12">
         2000+
