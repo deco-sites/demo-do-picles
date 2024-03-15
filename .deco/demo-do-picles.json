@@ -127,6 +127,43 @@
     ],
     "__resolveType": "deco-sites/demo-do-picles/sections/Content/Benefits.tsx"
   },
+  "Blog": {
+    "__resolveType": "decohub/apps/blog.ts",
+    "posts": [
+      {
+        "@type": "BlogPost",
+        "author": {
+          "0": {
+            "@type": "Person"
+          },
+          "name": "Héricles",
+          "email": "hericles@deco.cx"
+        },
+        "thumbnail": {
+          "@type": "ImageObject"
+        },
+        "image": {
+          "@type": "ImageObject"
+        },
+        "keywords": [],
+        "headline": "Blog Post Test",
+        "description": "Some description here",
+        "url": "/post",
+        "date": {},
+        "title": "Test",
+        "subtitle": "Subtitle Test",
+        "slug": "/test",
+        "content": "..."
+      }
+    ],
+    "authors": [
+      {
+        "@type": "Person",
+        "email": "hericles@deco.cx",
+        "name": "Héricles"
+      }
+    ]
+  },
   "Campaign Timer - 01": {
     "link": {
       "href": "https://github.com/deco-cx",
@@ -3289,10 +3326,5 @@
   },
   "weather": {
     "__resolveType": "decohub/apps/weather.ts"
-  },
-  "Blog": {
-    "__resolveType": "decohub/apps/blog.ts",
-    "posts": [],
-    "authors": []
   }
 }

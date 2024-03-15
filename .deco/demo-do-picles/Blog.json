@@ -1,1 +1,1 @@
-{"__resolveType":"decohub/apps/blog.ts","posts":[],"authors":[]}
+{"__resolveType":"decohub/apps/blog.ts","posts":[{"@type":"BlogPost","author":{"0":{"@type":"Person"},"name":"Héricles","email":"hericles@deco.cx"},"thumbnail":{"@type":"ImageObject"},"image":{"@type":"ImageObject"},"keywords":[],"headline":"Blog Post Test","description":"Some description here","url":"/post","date":{},"title":"Test","subtitle":"Subtitle Test","slug":"/test","content":"..."}],"authors":[{"@type":"Person","email":"hericles@deco.cx","name":"Héricles"}]}
