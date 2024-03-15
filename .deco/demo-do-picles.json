@@ -1549,7 +1549,8 @@
       "--border-btn": "1px",
       "--rounded-btn": "0.8rem",
       "--btn-text-case": "lowercase",
-      "--btn-focus-scale": "0.95"
+      "--btn-focus-scale": "0.95",
+      "--animation-btn": "0.25s"
     },
     "__resolveType": "deco-sites/demo-do-picles/sections/Theme/Theme.tsx",
     "complementaryColors": {
@@ -1562,6 +1563,14 @@
       "secondary": {
         "secondary-content": "#000000"
       }
+    },
+    "colorScheme": "light",
+    "otherStyles": {
+      "--rounded-box": "1rem",
+      "--rounded-badge": "1.9rem",
+      "--animation-input": "0.2s",
+      "--tab-border": "1px",
+      "--tab-radius": "0.5rem"
     }
   },
   "Halloween": {
@@ -3280,5 +3289,10 @@
   },
   "weather": {
     "__resolveType": "decohub/apps/weather.ts"
+  },
+  "Blog": {
+    "__resolveType": "decohub/apps/blog.ts",
+    "posts": [],
+    "authors": []
   }
 }
