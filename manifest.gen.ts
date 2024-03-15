@@ -2,113 +2,113 @@
 // This file SHOULD be checked into source version control.
 // This file is automatically updated during development when running `dev.ts`.
 
-import * as $$$0 from "./loaders/Layouts/ProductCard.tsx";
-import * as $$$1 from "./loaders/List/Sections.tsx";
-import * as $$$$$$0 from "./sections/Gallery.tsx";
-import * as $$$$$$1 from "./sections/Footer/Footer.tsx";
-import * as $$$$$$2 from "./sections/Category/CategoryBanner.tsx";
-import * as $$$$$$3 from "./sections/Category/CategoryList.tsx";
-import * as $$$$$$4 from "./sections/Images/ShoppableBanner.tsx";
-import * as $$$$$$5 from "./sections/Images/BannerGrid.tsx";
-import * as $$$$$$6 from "./sections/Images/ImageGallery.tsx";
-import * as $$$$$$7 from "./sections/Images/Carousel.tsx";
-import * as $$$$$$8 from "./sections/Layout/Container.tsx";
-import * as $$$$$$9 from "./sections/Layout/Grid.tsx";
-import * as $$$$$$10 from "./sections/Layout/Flex.tsx";
-import * as $$$$$$11 from "./sections/Layout/GridItem.tsx";
-import * as $$$$$$12 from "./sections/Animation/Animation.tsx";
-import * as $$$$$$13 from "./sections/Content/Testimonials.tsx";
-import * as $$$$$$14 from "./sections/Content/Logos.tsx";
-import * as $$$$$$15 from "./sections/Content/Faq.tsx";
-import * as $$$$$$16 from "./sections/Content/Benefits.tsx";
-import * as $$$$$$17 from "./sections/Product/Wishlist.tsx";
-import * as $$$$$$18 from "./sections/Product/NotFoundChallenge.tsx";
-import * as $$$$$$19 from "./sections/Product/SearchResult.tsx";
-import * as $$$$$$20 from "./sections/Product/ProductInfo.tsx";
-import * as $$$$$$21 from "./sections/Product/ProductShelf.tsx";
-import * as $$$$$$22 from "./sections/Product/ImageGallerySlider.tsx";
-import * as $$$$$$23 from "./sections/Product/ImageGalleryFrontBack.tsx";
-import * as $$$$$$24 from "./sections/Product/ProductShelfTabbed.tsx";
-import * as $$$$$$25 from "./sections/Product/NotFound.tsx";
-import * as $$$$$$26 from "./sections/Miscellaneous/CampaignTimer.tsx";
-import * as $$$$$$27 from "./sections/Miscellaneous/CookieConsent.tsx";
-import * as $$$$$$28 from "./sections/Social/WhatsApp.tsx";
-import * as $$$$$$29 from "./sections/Social/InstagramPosts.tsx";
-import * as $$$$$$30 from "./sections/Theme/Theme.tsx";
-import * as $$$$$$31 from "./sections/Links/LinkTree.tsx";
-import * as $$$$$$32 from "./sections/Links/Shortcuts.tsx";
-import * as $$$$$$33 from "./sections/Newsletter/Newsletter.tsx";
-import * as $$$$$$34 from "./sections/Header/Header.tsx";
-import * as $$$$$$35 from "./sections/animated/Number.tsx";
-import * as $$$$$$36 from "./sections/animated/Hero.tsx";
-import * as $$$$$$37 from "./sections/animated/Boxes.tsx";
-import * as $$$$$$38 from "./sections/animated/ProgressBar.tsx";
-import * as $$$$$$39 from "./sections/animated/OffsetPath.tsx";
-import * as $$$$$$40 from "./sections/animated/CallToAction.tsx";
-import * as $$$$$$41 from "./sections/animated/TextLines.tsx";
-import * as $$$$$$42 from "./sections/animated/Stars.tsx";
-import * as $$$$$$$$$$$0 from "./apps/decohub.ts";
-import * as $$$$$$$$$$$1 from "./apps/site.ts";
+import * as $$$$$$$$$$$$0 from "./apps/decohub.ts";
+import * as $$$$$$$$$$$$1 from "./apps/site.ts";
+import * as $$$$0 from "./loaders/Layouts/ProductCard.tsx";
+import * as $$$$1 from "./loaders/List/Sections.tsx";
+import * as $$$$$$$35 from "./sections/animated/Boxes.tsx";
+import * as $$$$$$$36 from "./sections/animated/CallToAction.tsx";
+import * as $$$$$$$37 from "./sections/animated/Hero.tsx";
+import * as $$$$$$$38 from "./sections/animated/Number.tsx";
+import * as $$$$$$$39 from "./sections/animated/OffsetPath.tsx";
+import * as $$$$$$$40 from "./sections/animated/ProgressBar.tsx";
+import * as $$$$$$$41 from "./sections/animated/Stars.tsx";
+import * as $$$$$$$42 from "./sections/animated/TextLines.tsx";
+import * as $$$$$$$0 from "./sections/Animation/Animation.tsx";
+import * as $$$$$$$1 from "./sections/Category/CategoryBanner.tsx";
+import * as $$$$$$$2 from "./sections/Category/CategoryList.tsx";
+import * as $$$$$$$3 from "./sections/Content/Benefits.tsx";
+import * as $$$$$$$4 from "./sections/Content/Faq.tsx";
+import * as $$$$$$$5 from "./sections/Content/Logos.tsx";
+import * as $$$$$$$6 from "./sections/Content/Testimonials.tsx";
+import * as $$$$$$$7 from "./sections/Footer/Footer.tsx";
+import * as $$$$$$$8 from "./sections/Gallery.tsx";
+import * as $$$$$$$9 from "./sections/Header/Header.tsx";
+import * as $$$$$$$10 from "./sections/Images/BannerGrid.tsx";
+import * as $$$$$$$11 from "./sections/Images/Carousel.tsx";
+import * as $$$$$$$12 from "./sections/Images/ImageGallery.tsx";
+import * as $$$$$$$13 from "./sections/Images/ShoppableBanner.tsx";
+import * as $$$$$$$14 from "./sections/Layout/Container.tsx";
+import * as $$$$$$$15 from "./sections/Layout/Flex.tsx";
+import * as $$$$$$$16 from "./sections/Layout/Grid.tsx";
+import * as $$$$$$$17 from "./sections/Layout/GridItem.tsx";
+import * as $$$$$$$18 from "./sections/Links/LinkTree.tsx";
+import * as $$$$$$$19 from "./sections/Links/Shortcuts.tsx";
+import * as $$$$$$$20 from "./sections/Miscellaneous/CampaignTimer.tsx";
+import * as $$$$$$$21 from "./sections/Miscellaneous/CookieConsent.tsx";
+import * as $$$$$$$22 from "./sections/Newsletter/Newsletter.tsx";
+import * as $$$$$$$23 from "./sections/Product/ImageGalleryFrontBack.tsx";
+import * as $$$$$$$24 from "./sections/Product/ImageGallerySlider.tsx";
+import * as $$$$$$$25 from "./sections/Product/NotFound.tsx";
+import * as $$$$$$$26 from "./sections/Product/NotFoundChallenge.tsx";
+import * as $$$$$$$27 from "./sections/Product/ProductInfo.tsx";
+import * as $$$$$$$28 from "./sections/Product/ProductShelf.tsx";
+import * as $$$$$$$29 from "./sections/Product/ProductShelfTabbed.tsx";
+import * as $$$$$$$30 from "./sections/Product/SearchResult.tsx";
+import * as $$$$$$$31 from "./sections/Product/Wishlist.tsx";
+import * as $$$$$$$32 from "./sections/Social/InstagramPosts.tsx";
+import * as $$$$$$$33 from "./sections/Social/WhatsApp.tsx";
+import * as $$$$$$$34 from "./sections/Theme/Theme.tsx";
 
 const manifest = {
   "loaders": {
-    "deco-sites/demo-do-picles/loaders/Layouts/ProductCard.tsx": $$$0,
-    "deco-sites/demo-do-picles/loaders/List/Sections.tsx": $$$1,
+    "deco-sites/demo-do-picles/loaders/Layouts/ProductCard.tsx": $$$$0,
+    "deco-sites/demo-do-picles/loaders/List/Sections.tsx": $$$$1,
   },
   "sections": {
-    "deco-sites/demo-do-picles/sections/animated/Boxes.tsx": $$$$$$37,
-    "deco-sites/demo-do-picles/sections/animated/CallToAction.tsx": $$$$$$40,
-    "deco-sites/demo-do-picles/sections/animated/Hero.tsx": $$$$$$36,
-    "deco-sites/demo-do-picles/sections/animated/Number.tsx": $$$$$$35,
-    "deco-sites/demo-do-picles/sections/animated/OffsetPath.tsx": $$$$$$39,
-    "deco-sites/demo-do-picles/sections/animated/ProgressBar.tsx": $$$$$$38,
-    "deco-sites/demo-do-picles/sections/animated/Stars.tsx": $$$$$$42,
-    "deco-sites/demo-do-picles/sections/animated/TextLines.tsx": $$$$$$41,
-    "deco-sites/demo-do-picles/sections/Animation/Animation.tsx": $$$$$$12,
-    "deco-sites/demo-do-picles/sections/Category/CategoryBanner.tsx": $$$$$$2,
-    "deco-sites/demo-do-picles/sections/Category/CategoryList.tsx": $$$$$$3,
-    "deco-sites/demo-do-picles/sections/Content/Benefits.tsx": $$$$$$16,
-    "deco-sites/demo-do-picles/sections/Content/Faq.tsx": $$$$$$15,
-    "deco-sites/demo-do-picles/sections/Content/Logos.tsx": $$$$$$14,
-    "deco-sites/demo-do-picles/sections/Content/Testimonials.tsx": $$$$$$13,
-    "deco-sites/demo-do-picles/sections/Footer/Footer.tsx": $$$$$$1,
-    "deco-sites/demo-do-picles/sections/Gallery.tsx": $$$$$$0,
-    "deco-sites/demo-do-picles/sections/Header/Header.tsx": $$$$$$34,
-    "deco-sites/demo-do-picles/sections/Images/BannerGrid.tsx": $$$$$$5,
-    "deco-sites/demo-do-picles/sections/Images/Carousel.tsx": $$$$$$7,
-    "deco-sites/demo-do-picles/sections/Images/ImageGallery.tsx": $$$$$$6,
-    "deco-sites/demo-do-picles/sections/Images/ShoppableBanner.tsx": $$$$$$4,
-    "deco-sites/demo-do-picles/sections/Layout/Container.tsx": $$$$$$8,
-    "deco-sites/demo-do-picles/sections/Layout/Flex.tsx": $$$$$$10,
-    "deco-sites/demo-do-picles/sections/Layout/Grid.tsx": $$$$$$9,
-    "deco-sites/demo-do-picles/sections/Layout/GridItem.tsx": $$$$$$11,
-    "deco-sites/demo-do-picles/sections/Links/LinkTree.tsx": $$$$$$31,
-    "deco-sites/demo-do-picles/sections/Links/Shortcuts.tsx": $$$$$$32,
+    "deco-sites/demo-do-picles/sections/animated/Boxes.tsx": $$$$$$$35,
+    "deco-sites/demo-do-picles/sections/animated/CallToAction.tsx": $$$$$$$36,
+    "deco-sites/demo-do-picles/sections/animated/Hero.tsx": $$$$$$$37,
+    "deco-sites/demo-do-picles/sections/animated/Number.tsx": $$$$$$$38,
+    "deco-sites/demo-do-picles/sections/animated/OffsetPath.tsx": $$$$$$$39,
+    "deco-sites/demo-do-picles/sections/animated/ProgressBar.tsx": $$$$$$$40,
+    "deco-sites/demo-do-picles/sections/animated/Stars.tsx": $$$$$$$41,
+    "deco-sites/demo-do-picles/sections/animated/TextLines.tsx": $$$$$$$42,
+    "deco-sites/demo-do-picles/sections/Animation/Animation.tsx": $$$$$$$0,
+    "deco-sites/demo-do-picles/sections/Category/CategoryBanner.tsx": $$$$$$$1,
+    "deco-sites/demo-do-picles/sections/Category/CategoryList.tsx": $$$$$$$2,
+    "deco-sites/demo-do-picles/sections/Content/Benefits.tsx": $$$$$$$3,
+    "deco-sites/demo-do-picles/sections/Content/Faq.tsx": $$$$$$$4,
+    "deco-sites/demo-do-picles/sections/Content/Logos.tsx": $$$$$$$5,
+    "deco-sites/demo-do-picles/sections/Content/Testimonials.tsx": $$$$$$$6,
+    "deco-sites/demo-do-picles/sections/Footer/Footer.tsx": $$$$$$$7,
+    "deco-sites/demo-do-picles/sections/Gallery.tsx": $$$$$$$8,
+    "deco-sites/demo-do-picles/sections/Header/Header.tsx": $$$$$$$9,
+    "deco-sites/demo-do-picles/sections/Images/BannerGrid.tsx": $$$$$$$10,
+    "deco-sites/demo-do-picles/sections/Images/Carousel.tsx": $$$$$$$11,
+    "deco-sites/demo-do-picles/sections/Images/ImageGallery.tsx": $$$$$$$12,
+    "deco-sites/demo-do-picles/sections/Images/ShoppableBanner.tsx": $$$$$$$13,
+    "deco-sites/demo-do-picles/sections/Layout/Container.tsx": $$$$$$$14,
+    "deco-sites/demo-do-picles/sections/Layout/Flex.tsx": $$$$$$$15,
+    "deco-sites/demo-do-picles/sections/Layout/Grid.tsx": $$$$$$$16,
+    "deco-sites/demo-do-picles/sections/Layout/GridItem.tsx": $$$$$$$17,
+    "deco-sites/demo-do-picles/sections/Links/LinkTree.tsx": $$$$$$$18,
+    "deco-sites/demo-do-picles/sections/Links/Shortcuts.tsx": $$$$$$$19,
     "deco-sites/demo-do-picles/sections/Miscellaneous/CampaignTimer.tsx":
-      $$$$$$26,
+      $$$$$$$20,
     "deco-sites/demo-do-picles/sections/Miscellaneous/CookieConsent.tsx":
-      $$$$$$27,
-    "deco-sites/demo-do-picles/sections/Newsletter/Newsletter.tsx": $$$$$$33,
+      $$$$$$$21,
+    "deco-sites/demo-do-picles/sections/Newsletter/Newsletter.tsx": $$$$$$$22,
     "deco-sites/demo-do-picles/sections/Product/ImageGalleryFrontBack.tsx":
-      $$$$$$23,
+      $$$$$$$23,
     "deco-sites/demo-do-picles/sections/Product/ImageGallerySlider.tsx":
-      $$$$$$22,
-    "deco-sites/demo-do-picles/sections/Product/NotFound.tsx": $$$$$$25,
+      $$$$$$$24,
+    "deco-sites/demo-do-picles/sections/Product/NotFound.tsx": $$$$$$$25,
     "deco-sites/demo-do-picles/sections/Product/NotFoundChallenge.tsx":
-      $$$$$$18,
-    "deco-sites/demo-do-picles/sections/Product/ProductInfo.tsx": $$$$$$20,
-    "deco-sites/demo-do-picles/sections/Product/ProductShelf.tsx": $$$$$$21,
+      $$$$$$$26,
+    "deco-sites/demo-do-picles/sections/Product/ProductInfo.tsx": $$$$$$$27,
+    "deco-sites/demo-do-picles/sections/Product/ProductShelf.tsx": $$$$$$$28,
     "deco-sites/demo-do-picles/sections/Product/ProductShelfTabbed.tsx":
-      $$$$$$24,
-    "deco-sites/demo-do-picles/sections/Product/SearchResult.tsx": $$$$$$19,
-    "deco-sites/demo-do-picles/sections/Product/Wishlist.tsx": $$$$$$17,
-    "deco-sites/demo-do-picles/sections/Social/InstagramPosts.tsx": $$$$$$29,
-    "deco-sites/demo-do-picles/sections/Social/WhatsApp.tsx": $$$$$$28,
-    "deco-sites/demo-do-picles/sections/Theme/Theme.tsx": $$$$$$30,
+      $$$$$$$29,
+    "deco-sites/demo-do-picles/sections/Product/SearchResult.tsx": $$$$$$$30,
+    "deco-sites/demo-do-picles/sections/Product/Wishlist.tsx": $$$$$$$31,
+    "deco-sites/demo-do-picles/sections/Social/InstagramPosts.tsx": $$$$$$$32,
+    "deco-sites/demo-do-picles/sections/Social/WhatsApp.tsx": $$$$$$$33,
+    "deco-sites/demo-do-picles/sections/Theme/Theme.tsx": $$$$$$$34,
   },
   "apps": {
-    "deco-sites/demo-do-picles/apps/decohub.ts": $$$$$$$$$$$0,
-    "deco-sites/demo-do-picles/apps/site.ts": $$$$$$$$$$$1,
+    "deco-sites/demo-do-picles/apps/decohub.ts": $$$$$$$$$$$$0,
+    "deco-sites/demo-do-picles/apps/site.ts": $$$$$$$$$$$$1,
   },
   "name": "deco-sites/demo-do-picles",
   "baseUrl": import.meta.url,
