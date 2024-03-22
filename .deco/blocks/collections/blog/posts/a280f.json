@@ -1,1 +1,1 @@
-{"__resolveType":"blog/loaders/Blogpost.ts","post":{"authors":[{"__resolveType":"author-c4a5d1a8"}],"date":{},"title":"Test BlogPost","subtitle":"This is a lorem Ipsum blogPost","slug":"/lorem-ipsum","content":"Lorem ipsum dor..."}}
+{"__resolveType":"blog/loaders/Blogpost.ts","post":{"authors":[{"__resolveType":"author-c4a5d1a8"}],"date":"2024-03-21","title":"Test BlogPost","subtitle":"This is a lorem Ipsum blogPost","slug":"/lorem-ipsum","content":"Lorem ipsum dor..."}}
