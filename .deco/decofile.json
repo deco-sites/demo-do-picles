@@ -3422,17 +3422,6 @@
           }
         }
       }
-    },
-    "commerce": {
-      "ads": {
-        "test": {
-          "__resolveType": "blog/loaders/Author.ts",
-          "author": {
-            "name": "Test",
-            "email": "haha@haha.cx"
-          }
-        }
-      }
     }
   },
   "implementation": {
