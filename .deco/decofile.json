@@ -3422,6 +3422,17 @@
           }
         }
       }
+    },
+    "commerce": {
+      "ads": {
+        "test": {
+          "__resolveType": "blog/loaders/Author.ts",
+          "author": {
+            "name": "Capy",
+            "email": "jsaijdsad"
+          }
+        }
+      }
     }
   },
   "implementation": {
