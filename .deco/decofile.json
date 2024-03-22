@@ -3898,21 +3898,6 @@
   "plausible": {
     "__resolveType": "decohub/apps/analytics.ts"
   },
-  "post-pima-2": {
-    "__resolveType": "blog/loaders/Blogpost.ts",
-    "post": {
-      "authors": [
-        {
-          "__resolveType": "author-tavano"
-        }
-      ],
-      "date": {},
-      "title": "Second Pima",
-      "subtitle": "Pima Pima Pima",
-      "slug": "/pima-2",
-      "content": "pima-2"
-    }
-  },
   "random-product": {
     "rootEndpoint": "https://random-data-api.com/api/v2",
     "__resolveType": "decohub/apps/random-product.ts"
