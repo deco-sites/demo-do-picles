@@ -2620,6 +2620,54 @@
     ],
     "__resolveType": "deco-sites/demo-do-picles/sections/Links/Shortcuts.tsx"
   },
+  "Site": {
+    "seo": {
+      "type": "website",
+      "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/2177/a5d890ba-e5b8-471e-8b77-7412c1d4fa56",
+      "title": "Storefront",
+      "jsonLDs": [],
+      "canonical": "https://fashion.deco.site",
+      "noIndexing": false,
+      "description": "Improve your page performance with deco.cx",
+      "titleTemplate": "%s | deco.cx",
+      "descriptionTemplate": "%s | Deco.cx"
+    },
+    "theme": {
+      "__resolveType": "Fashion theme"
+    },
+    "global": [
+      {
+        "__resolveType": "website/sections/Analytics/Analytics.tsx"
+      },
+      {
+        "__resolveType": "algolia/sections/Analytics/Algolia.tsx"
+      },
+      {
+        "__resolveType": "analytics/sections/Analytics/DecoAnalytics.tsx"
+      }
+    ],
+    "routes": [
+      {
+        "__resolveType": "vtex/loaders/proxy.ts",
+        "includeSiteMap": [],
+        "extraPathsToProxy": [],
+        "includeScriptsToHead": {
+          "includePlausible": true
+        }
+      },
+      {
+        "__resolveType": "website/loaders/pages.ts"
+      },
+      {
+        "__resolveType": "website/loaders/redirects.ts"
+      }
+    ],
+    "commerce": {
+      "platform": "other"
+    },
+    "platform": "vtex",
+    "__resolveType": "deco-sites/demo-do-picles/apps/site.ts"
+  },
   "Testimonials - 01": {
     "title": "Testimonials",
     "layout": {
@@ -3327,6 +3375,11 @@
       "email": "hericles@deco.cx"
     }
   },
+  "author-ebc99dd9-9de6-4198-b442-cdb62d8bb31e": {
+    "name": "Héricles",
+    "email": "hericles.me@gmail.com",
+    "__resolveType": "blog/loaders/author.ts"
+  },
   "author-tavano": {
     "__resolveType": "blog/loaders/Author.ts",
     "author": {
@@ -3359,66 +3412,33 @@
   },
   "collections": {
     "blog": {
-      "authors": {
-        "capy": {
-          "__resolveType": "blog/loaders/Author.ts",
-          "author": {
-            "name": "Capy",
-            "email": "capy@deco.cx"
-          }
-        },
-        "e505b": {
-          "__resolveType": "blog/loaders/Author.ts",
-          "author": {
-            "name": "Teste",
-            "email": "teste@deco.cx"
-          }
-        }
-      },
       "posts": {
-        "8febb": {
+        "18a8c7ba7e06": {
+          "name": "collections/blog/posts/18a8c7ba7e06",
           "__resolveType": "blog/loaders/Blogpost.ts",
           "post": {
-            "authors": [
-              {
-                "__resolveType": "author-c4a5d1a8"
-              }
-            ],
+            "authors": [],
+            "title": "Title",
+            "subtitle": "subtitle",
             "date": "2024-03-22",
-            "title": "Como a deco.cx se tornou uma empresa revolucionária",
-            "subtitle": "A deco pipipi, popopo, revoluciona, pipipi, popopo...",
-            "slug": "/deco-cx-revolution",
-            "content": "Lorem ipsum dor..."
-          }
-        },
-        "a280f": {
-          "__resolveType": "blog/loaders/Blogpost.ts",
-          "post": {
-            "authors": [
-              {
-                "__resolveType": "author-c4a5d1a8"
-              }
-            ],
-            "date": "2024-03-21",
-            "title": "Test BlogPost",
-            "subtitle": "This is a lorem Ipsum blogPost",
             "slug": "/lorem-ipsum",
-            "content": "Lorem ipsum dor..."
+            "content": "<p>Blog Content</p>"
           }
         },
-        "test": {
+        "db0ff0043e01": {
+          "name": "collections/blog/posts/db0ff0043e01",
+          "__resolveType": "blog/loaders/Blogpost.ts"
+        },
+        "fb8990288ace": {
+          "name": "collections/blog/posts/fb8990288ace",
           "__resolveType": "blog/loaders/Blogpost.ts",
           "post": {
-            "authors": [
-              {
-                "__resolveType": "author-c4a5d1a8"
-              }
-            ],
-            "date": "2024-03-20",
-            "title": "Pima Test",
-            "subtitle": "Pima Test Test",
-            "slug": "/slug",
-            "content": "content here"
+            "authors": [],
+            "title": "Blog Post Title",
+            "subtitle": "Subtitle example here",
+            "date": "2024-03-22",
+            "slug": "/blog-post-2",
+            "content": "<p>Lorem Ipsum</p>"
           }
         }
       }
