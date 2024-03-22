@@ -1,1 +1,1 @@
-{"name":"collections/blog/posts/db0ff0043e01","__resolveType":"blog/loaders/Blogpost.ts"}
+{"name":"collections/blog/posts/db0ff0043e01","__resolveType":"blog/loaders/Blogpost.ts","post":{"authors":[],"title":"Hi There","subtitle":"This is just a \"Hi There\"","date":"2024-03-22","slug":"/hi-there","content":"<p>ddddd</p>"}}

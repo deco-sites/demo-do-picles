@@ -3425,9 +3425,29 @@
             "content": "<p>Blog Content</p>"
           }
         },
+        "bc48e3cc67d9": {
+          "post": {
+            "authors": [],
+            "title": "Example Title",
+            "subtitle": "This is just an example for our blogpost",
+            "date": "2024-03-22",
+            "slug": "/test",
+            "content": "<h2>This is a Section</h2><p>This is a paragraph﻿</p>"
+          },
+          "name": "collections/blog/posts/bc48e3cc67d9",
+          "__resolveType": "blog/loaders/Blogpost.ts"
+        },
         "db0ff0043e01": {
           "name": "collections/blog/posts/db0ff0043e01",
-          "__resolveType": "blog/loaders/Blogpost.ts"
+          "__resolveType": "blog/loaders/Blogpost.ts",
+          "post": {
+            "authors": [],
+            "title": "Hi There",
+            "subtitle": "This is just a \"Hi There\"",
+            "date": "2024-03-22",
+            "slug": "/hi-there",
+            "content": "<p>ddddd</p>"
+          }
         },
         "fb8990288ace": {
           "name": "collections/blog/posts/fb8990288ace",
@@ -4011,5 +4031,12 @@
   },
   "weather": {
     "__resolveType": "decohub/apps/weather.ts"
+  },
+  "author": {
+    "__resolveType": "blog/loaders/Author.ts",
+    "author": {
+      "name": "Test",
+      "email": "Test"
+    }
   }
 }
