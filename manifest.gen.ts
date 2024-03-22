@@ -36,6 +36,7 @@ import * as $$$$$$$18 from "./sections/Links/LinkTree.tsx";
 import * as $$$$$$$19 from "./sections/Links/Shortcuts.tsx";
 import * as $$$$$$$20 from "./sections/Miscellaneous/CampaignTimer.tsx";
 import * as $$$$$$$21 from "./sections/Miscellaneous/CookieConsent.tsx";
+import * as $$$$$$$43 from "./sections/myCategory/mySections.tsx";
 import * as $$$$$$$22 from "./sections/Newsletter/Newsletter.tsx";
 import * as $$$$$$$23 from "./sections/Product/ImageGalleryFrontBack.tsx";
 import * as $$$$$$$24 from "./sections/Product/ImageGallerySlider.tsx";
@@ -88,6 +89,7 @@ const manifest = {
       $$$$$$$20,
     "deco-sites/demo-do-picles/sections/Miscellaneous/CookieConsent.tsx":
       $$$$$$$21,
+    "deco-sites/demo-do-picles/sections/myCategory/mySections.tsx": $$$$$$$43,
     "deco-sites/demo-do-picles/sections/Newsletter/Newsletter.tsx": $$$$$$$22,
     "deco-sites/demo-do-picles/sections/Product/ImageGalleryFrontBack.tsx":
       $$$$$$$23,
