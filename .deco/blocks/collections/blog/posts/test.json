@@ -1,1 +1,1 @@
-{"__resolveType":"blog/loaders/Blogpost.ts","post":{"authors":[{"__resolveType":"author-c4a5d1a8"}],"date":{},"title":"Pima Test","subtitle":"Pima Test Test","slug":"slug","content":"content here"}}
+{"__resolveType":"blog/loaders/Blogpost.ts","post":{"authors":[{"__resolveType":"author-c4a5d1a8"}],"date":{},"title":"Pima Test","subtitle":"Pima Test Test","slug":"/slug","content":"content here"}}

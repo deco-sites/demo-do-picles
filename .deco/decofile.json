@@ -3387,7 +3387,7 @@
             "date": {},
             "title": "Pima Test",
             "subtitle": "Pima Test Test",
-            "slug": "slug",
+            "slug": "/slug",
             "content": "content here"
           }
         },
@@ -3403,6 +3403,21 @@
             "title": "Test BlogPost",
             "subtitle": "This is a lorem Ipsum blogPost",
             "slug": "/lorem-ipsum",
+            "content": "Lorem ipsum dor..."
+          }
+        },
+        "8febb": {
+          "__resolveType": "blog/loaders/Blogpost.ts",
+          "post": {
+            "authors": [
+              {
+                "__resolveType": "author-c4a5d1a8"
+              }
+            ],
+            "date": {},
+            "title": "Como a deco.cx se tornou uma empresa revolucionária",
+            "subtitle": "A deco pipipi, popopo, revoluciona, pipipi, popopo...",
+            "slug": "/deco-cx-revolution",
             "content": "Lorem ipsum dor..."
           }
         }
