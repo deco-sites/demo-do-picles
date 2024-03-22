@@ -3359,6 +3359,22 @@
   },
   "collections": {
     "blog": {
+      "authors": {
+        "capy": {
+          "__resolveType": "blog/loaders/Author.ts",
+          "author": {
+            "name": "Capy",
+            "email": "capy@deco.cx"
+          }
+        },
+        "e505b": {
+          "__resolveType": "blog/loaders/Author.ts",
+          "author": {
+            "name": "Teste",
+            "email": "teste@deco.cx"
+          }
+        }
+      },
       "posts": {
         "test": {
           "__resolveType": "blog/loaders/Blogpost.ts",
@@ -3374,14 +3390,20 @@
             "slug": "slug",
             "content": "content here"
           }
-        }
-      },
-      "authors": {
-        "capy": {
-          "__resolveType": "blog/loaders/Author.ts",
-          "author": {
-            "name": "Capy",
-            "email": "capy@deco.cx"
+        },
+        "a280f": {
+          "__resolveType": "blog/loaders/Blogpost.ts",
+          "post": {
+            "authors": [
+              {
+                "__resolveType": "author-c4a5d1a8"
+              }
+            ],
+            "date": {},
+            "title": "Test BlogPost",
+            "subtitle": "This is a lorem Ipsum blogPost",
+            "slug": "/lorem-ipsum",
+            "content": "Lorem ipsum dor..."
           }
         }
       }
