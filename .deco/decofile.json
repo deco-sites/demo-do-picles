@@ -3461,6 +3461,15 @@
             "content": "<p>Lorem Ipsum</p>"
           }
         }
+      },
+      "authors": {
+        "e505b": {
+          "__resolveType": "blog/loaders/Author.ts",
+          "author": {
+            "name": "Test",
+            "email": "Test"
+          }
+        }
       }
     }
   },
