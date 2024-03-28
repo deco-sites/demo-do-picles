@@ -3387,6 +3387,13 @@
       "email": "tavano@deco.cx"
     }
   },
+  "author": {
+    "__resolveType": "blog/loaders/Author.ts",
+    "author": {
+      "name": "Test",
+      "email": "Test"
+    }
+  },
   "blog": {
     "posts": [],
     "authors": [],
@@ -3408,69 +3415,6 @@
       "subtitle": "Pima Pima Pima",
       "slug": "slug",
       "content": "Content"
-    }
-  },
-  "collections": {
-    "blog": {
-      "posts": {
-        "18a8c7ba7e06": {
-          "name": "collections/blog/posts/18a8c7ba7e06",
-          "__resolveType": "blog/loaders/Blogpost.ts",
-          "post": {
-            "authors": [],
-            "title": "Title",
-            "subtitle": "subtitle",
-            "date": "2024-03-22",
-            "slug": "/lorem-ipsum",
-            "content": "<p>Blog Content</p>"
-          }
-        },
-        "bc48e3cc67d9": {
-          "post": {
-            "authors": [],
-            "title": "Example Title",
-            "subtitle": "This is just an example for our blogpost",
-            "date": "2024-03-22",
-            "slug": "/test",
-            "content": "<h2>This is a Section</h2><p>This is a paragraph﻿</p>"
-          },
-          "name": "collections/blog/posts/bc48e3cc67d9",
-          "__resolveType": "blog/loaders/Blogpost.ts"
-        },
-        "db0ff0043e01": {
-          "name": "collections/blog/posts/db0ff0043e01",
-          "__resolveType": "blog/loaders/Blogpost.ts",
-          "post": {
-            "authors": [],
-            "title": "Hi There",
-            "subtitle": "This is just a \"Hi There\"",
-            "date": "2024-03-22",
-            "slug": "/hi-there",
-            "content": "<p>ddddd</p>"
-          }
-        },
-        "fb8990288ace": {
-          "name": "collections/blog/posts/fb8990288ace",
-          "__resolveType": "blog/loaders/Blogpost.ts",
-          "post": {
-            "authors": [],
-            "title": "Blog Post Title",
-            "subtitle": "Subtitle example here",
-            "date": "2024-03-22",
-            "slug": "/blog-post-2",
-            "content": "<p>Lorem Ipsum</p>"
-          }
-        }
-      },
-      "authors": {
-        "e505b": {
-          "__resolveType": "blog/loaders/Author.ts",
-          "author": {
-            "name": "Test",
-            "email": "Test"
-          }
-        }
-      }
     }
   },
   "implementation": {
@@ -4041,11 +3985,22 @@
   "weather": {
     "__resolveType": "decohub/apps/weather.ts"
   },
-  "author": {
-    "__resolveType": "blog/loaders/Author.ts",
-    "author": {
-      "name": "Test",
-      "email": "Test"
+  "collections": {
+    "blog": {
+      "posts": {
+        "52f8eadaa9c8": {
+          "post": {
+            "authors": [],
+            "title": "Test",
+            "subtitle": "e",
+            "date": "2024-03-22",
+            "slug": "aasdas",
+            "content": "aaa"
+          },
+          "name": "collections/blog/posts/52f8eadaa9c8",
+          "__resolveType": "blog/loaders/Blogpost.ts"
+        }
+      }
     }
   }
 }
